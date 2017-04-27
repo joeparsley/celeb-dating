@@ -8,24 +8,24 @@ $(document).ready(function() {
 
     if ( genderInput === "female" && ageInput < 30 && hairColorInput != "other") {
       $(".init-hidden").hide();
-      $("#khal").show();
+      $("#khal").fadeIn(3000);
     } else if ( ageInput > 30 && genderInput != "female" && hairColorInput === "blonde" ) {
       $(".init-hidden").hide();
-      $("#ygritte").show();
+      $("#ygritte").fadeIn(3000);
     } else {
       $(".init-hidden").hide();
-      $("#dragon").show();
+      $("#dragon").fadeIn(3000);
     }
 
     if ( genderInput === "male" && ageInput < 30 && hairColorInput != "other") {
       $(".init-hidden").hide();
-      $("#danny").show();
+      $("#danny").fadeIn(3000);
     } else if ( ageInput > 30 && genderInput != "male" && hairColorInput === "blonde" )  {
       $(".init-hidden").hide();
-      $("#hodor").show();
+      $("#hodor").fadeIn(3000);
     } else if ( gender === 'male' ){
       $(".init-hidden").hide();
-      $("#dragon").show();
+      $("#dragon").fadeIn(3000);
     }
 
     event.preventDefault();
