@@ -1,3 +1,54 @@
+@font-face {
+    font-family: game;
+    src: url(../game.ttf);
+}
+
 .init-hidden {
   display: none;
+}
+
+#hair-color {
+  margin: 15px 0px;
+}
+
+body {
+  background-image: url(../img/wall.jpg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: cover;
+  color:#eee;
+}
+
+#personal-info {
+
+  font-size: 1.3em;
+  margin-top: 150px;
+}
+
+.jumbotron {
+  margin-top: 40px;
+  color: black;
+  font-family: game;
+  border: thick solid white;
+  background-color: #5bc0de;
+}
+
+img {
+  border-radius: 20px;
+  border: thin solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content p {
+  font-size: 1.4em;
+  font-family: fantasy;
+}
+
+h3 {
+  font-family: game;
+  text-align: center;
+  opacity: .5;
 }
