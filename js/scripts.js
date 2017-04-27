@@ -9,6 +9,9 @@ $(document).ready(function() {
     if ( genderInput === "female" && ageInput < 30 && hairColorInput != "other") {
       $(".init-hidden").hide();
       $("#khal").show();
+    } else if ( ageInput > 30 && genderInput != "female" && hairColorInput === "blonde" ) {
+      $(".init-hidden").hide();
+      $("#ygritte").show();
     } else {
       $(".init-hidden").hide();
       $("#dragon").show();
@@ -17,6 +20,9 @@ $(document).ready(function() {
     if ( genderInput === "male" && ageInput < 30 && hairColorInput != "other") {
       $(".init-hidden").hide();
       $("#danny").show();
+    } else if ( ageInput > 30 && genderInput != "male" && hairColorInput === "blonde" )  {
+      $(".init-hidden").hide();
+      $("#hodor").show();
     } else if ( gender === 'male' ){
       $(".init-hidden").hide();
       $("#dragon").show();
