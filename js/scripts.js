@@ -13,13 +13,15 @@ $(document).ready(function() {
       $(".init-hidden").hide();
       $("#dragon").show();
     }
+
     if ( genderInput === "male" && ageInput < 30 && hairColorInput != "other") {
       $(".init-hidden").hide();
       $("#danny").show();
-    } else {
+    } else if ( gender === 'male' ){
       $(".init-hidden").hide();
       $("#dragon").show();
     }
+
     event.preventDefault();
   });
 });
