@@ -29,8 +29,9 @@ body {
   margin-top: 40px;
   color: black;
   font-family: game;
-  border: thick solid white;
-  background-color: #5bc0de;
+  border: thick solid #5bc0de;
+  background-color: #3b414e;
+  opacity: .8;
 }
 
 img {
@@ -50,5 +51,9 @@ h1 {
 h3 {
   font-family: game;
   text-align: center;
-  opacity: .5;
+}
+
+.btn {
+  background-color: #3b414e;
+  opacity: .8;
 }
